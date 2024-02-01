@@ -1,0 +1,20 @@
+.scrollup {
+  opacity: 0.8;
+  position: fixed;
+  right: 2.5rem;
+  bottom: -20%;
+  background-color: var(--text-color);
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.4rem;
+  z-index: 1000;
+  transition: 0.4s;
+}
+
+.scrollup:active {
+  transform: translateY(-5px);
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
