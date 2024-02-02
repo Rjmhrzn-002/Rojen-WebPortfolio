@@ -1,5 +1,9 @@
 import "./project.css";
 
+import RPS from "/src/assets/images/RPS.jpg";
+import reactTodo from "/src/assets/images/reactTodo.jpg";
+import reactRouter from "/src/assets/images/reactRouter.jpg";
+
 const Project = () => {
   return (
     <section className="project section" id="projects">
@@ -9,7 +13,7 @@ const Project = () => {
       <div className="project-container container">
         <div className="project-data">
           <div className="project-img">
-            <img src="src/assets/images/RPS.png" alt="fail" />
+            <img src={RPS} alt="fail" />
           </div>
           <div className="project-btns">
             <a
@@ -31,11 +35,7 @@ const Project = () => {
         </div>
 
         <div className="project-data">
-          <img
-            src="src/assets/images/Todo.png"
-            alt="fail"
-            className="project-img"
-          />
+          <img src={reactTodo} alt="fail" className="project-img" />
           <div className="project-btns">
             <a target="_blank" href="#" className="project-button">
               Live Demo
@@ -53,11 +53,7 @@ const Project = () => {
         </div>
 
         <div className="project-data">
-          <img
-            src="src/assets/images/reactRouter.png"
-            alt="fail"
-            className="project-img"
-          />
+          <img src={reactRouter} alt="fail" className="project-img" />
           <div className="project-btns">
             <a target="_blank" href="#" className="project-button">
               Live Demo
