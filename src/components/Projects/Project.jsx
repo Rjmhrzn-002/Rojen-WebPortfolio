@@ -9,7 +9,7 @@ const Project = () => {
       <div className="project-container container">
         <div className="project-data">
           <div className="project-img">
-            <img src="/src/assets/RPS.png" alt="fail" />
+            <img src="src/assets/images/RPS.png" alt="fail" />
           </div>
           <div className="project-btns">
             <a
@@ -31,7 +31,11 @@ const Project = () => {
         </div>
 
         <div className="project-data">
-          <img src="/src/assets/Todo.png" alt="fail" className="project-img" />
+          <img
+            src="src/assets/images/Todo.png"
+            alt="fail"
+            className="project-img"
+          />
           <div className="project-btns">
             <a target="_blank" href="#" className="project-button">
               Live Demo
@@ -50,12 +54,14 @@ const Project = () => {
 
         <div className="project-data">
           <img
-            src="/src/assets/reactRouter.png"
+            src="src/assets/images/reactRouter.png"
             alt="fail"
             className="project-img"
           />
           <div className="project-btns">
-            <a className="project-button">Live Demo</a>
+            <a target="_blank" href="#" className="project-button">
+              Live Demo
+            </a>
             <a
               target="_blank"
               href="https://github.com/Rjmhrzn-002/React_rotuer_dom"
