@@ -1,4 +1,4 @@
-import CV from "/src/assets/Rojen_Maharjan_CV.pdf";
+import CV from "/src/assets/Rojen_MaharjanCV.pdf";
 
 const Data = () => {
   return (
